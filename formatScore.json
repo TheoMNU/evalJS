@@ -1,0 +1,18 @@
+{
+	"score": 10,
+	"answers": [
+		{
+			"id": "3c470fdb-b5cd-4731-a858-92188bd6a515",
+			"correctAnswer": "stringify()"
+		},
+		{
+			"id": "4647d527-55ce-48e3-9d57-595bd42e11f4",
+			"correctAnswer": "var and let"
+		},
+		{
+			"id": "c305af3f-111e-426f-9068-b9678854681d",
+			"correctAnswer": "All of the above"
+		},
+		{ "id": "c683db85-5eef-4c93-b3d4-1a2fd3cd80ab", "correctAnswer": "const" }
+	]
+}

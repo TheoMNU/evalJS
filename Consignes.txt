@@ -1,0 +1,19 @@
+Vous disposez d'une api qui met à votre disposition une serie de questions à choix multiples.
+Chaque question n'a qu'une seule bonne réponse parmi les choix proposés par l'api.
+L'api peut également calculer le score d'un élève à partir des réponses renvoyés par celui-ci.
+
+L'objectif est de créer une application de quiz qui va afficher les questions proposées par l'api, 
+permettre à l'utilisateur de faire des propositions des réponses et lui afficher son score
+
+
+L'api est accessible à l'url suivante : http://138.68.173.105/api/questions
+Cet api a deux routes :
+
+http://138.68.173.105/api/questions accessible avec la méthode GET
+Elle renvoie une liste de questions avec plusieurs choix possibles par questions (voir le fichier formatQuestions.json)
+
+http://138.68.173.105/api/questions/answers accessible avec la méthode POST
+Elle prend une liste de réponses (voir le fichier formatReponses.json)
+Elle renvoie le score et les bonnes réponses qui étaient attendues (voir le fichier formatScore.json)
+
+
